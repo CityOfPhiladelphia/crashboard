@@ -9,14 +9,18 @@
     <meta name="description" content="Service Monitoring Status Updates">
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     <!--Ionicons are optional-->
     <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
     <!--pattern stylesheet includes foundation css -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="//cityofphiladelphia.github.io/patterns/dist/1.4.0/css/patterns.css">
-    <script type="text/javascript" src="//cityofphiladelphia.github.io/patterns/dist/1.4.0/js/patterns.min.js"></script>
+    
+
+</script>
     <link rel="canonical" href="">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
   </head>
 
   <body>
@@ -59,37 +63,24 @@
     }
   </style>
     
-<div class="full" id="application">
-
-<!-- Begin .header -->
-<header data-swiftype-index='false' class="site-header-app">
-  <div class="row site-branding">
-    <div class="small-24 medium-12 columns">
-      <a href="https://alpha.phila.gov" class="logo">
-        <img src="//cityofphiladelphia.github.io/patterns/images/city-of-philadelphia-white.png" alt="City of Philadelphia">
-      </a>
-      <div class="page-title-container">
-        <a href="#/">
-          <h1 class="page-title">Crashboard</h1>
-          <h2 class="page-subtitle">Service monitor overview</h2>
-        </a>
-      </div>
-      <h1 class="site-title">phila.gov</h1>
-      <h2 class="site-description">City of Philadelphia</h2>
-    </div>
-  </div>
-  <div class="row expanded">
-  <div class="large-24 columns">
-    <ul class="breadcrumbs">
-      <!--<li><a href="#/">Home</a></li>-->
-      <!--<li><a href="#/">Grandparent</a></li>-->
-      <!--<li><a href="#/">Parent</a></li>-->
-      <!--<li>Child</li>-->
-    </ul>
-  </div>
-</div>
-
-</header>
+    <div class="full" id="application">
+      <!-- Begin header -->
+      <header data-swiftype-index='false' class="site-header app" role="banner">
+        <div class="row">
+          <div class="small-24 columns">
+            <a href="http://alpha.phila.gov/" class="logo">
+              <img data-interchange="[//cityofphiladelphia.github.io/patterns/images/city-of-philadelphia-mobile.png, small], [//cityofphiladelphia.github.io/patterns/images/city-of-philadelphia-white.png, medium]" src="//cityofphiladelphia.github.io/patterns/images/city-of-philadelphia-white.png" alt="City of Philadelphia">
+            </a>
+            <div class="page-title-container">
+              <a href="#/">
+                <h1 class="page-title">Crashboard</h1>
+                <h2 class="page-subtitle">Service monitor Status</h2>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div data-swiftype-index='false' class="site-header" role="banner"></div>
+      </header>
 
 <div class="row">
   <div class="small-24 columns">
@@ -100,14 +91,15 @@
   <div class="large-24 columns">
   </div>
 </div>
-      <article data-swiftype-name="body" data-swiftype-type="text">
+      <div data-swiftype-name="body" data-swiftype-type="text">
         <div class="row">
           <div class="large-24 columns">
             <div class="StatusCake" style="height: inherit;"></div><link rel="stylesheet" media="all" href="https://www.statuscake.com/App/Widget/table.css"/><script type="text/javascript">var PublicID = 'peTXUrZFvu'; var ShowAd = false; var Status = document.createElement('script'); Status.src = 'https://www.statuscake.com/App/Widget/Widget2JS.js'; Status.type = 'text/javascript'; Status.async = true; var ssc = document.getElementsByTagName('script')[0]; ssc.parentNode.insertBefore(Status, ssc);</script>
           </div>       
         </div>
-      </article>
-    </div><!-- End #page -->
+      </div>
+    </div>
+<!-- End #page -->
 <!-- Begin Footer -->
 <footer data-swiftype-index='false' class="site-footer" role="contentinfo">
   <section class="fat">
@@ -164,6 +156,8 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.js"></script>
-    
+
+    <script src="//cityofphiladelphia.github.io/patterns/dist/1.4.0/js/patterns.min.js"></script>
+
   </body>
 </html>
